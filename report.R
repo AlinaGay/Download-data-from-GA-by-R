@@ -1,4 +1,4 @@
-library("RGA") 
+library("RGA") #this is library for working with Google Analytics
 rga_auth <- authorize(client.id = "your client ID", client.secret = "your client secret")
 
 #1 Downloading the main metrics of your site
